@@ -1,12 +1,17 @@
-# LLMISP
+# LISP
 
-This repository contains the source code of LLMISP and tables of data recorded in the experiments.
+> This repository contains the source code of LISP and tables of data recorded in the experiments.
 
-## Link for Experiments Results: [<u>https://llmisp.github.io</u>](https://llmisp.github.io/)
+ICSE '25: LLM Based Input Space Partitioning Testing for Library APIs
+
+Jiageng Li, Zhen Dong*, Chong Wang, Haozhen You, Cen Zhang, Yang Liu, Xin Peng
+
+## Link for Experiments Results: [<u>https://fudanselab.github.io/lisp</u>](https://fudanselab.github.io/lisp)
 
 This link contains the information of the evaluation in our experiments.
 
-## How to use LLMISP
+## How to use LISP
+
 1. Prerequisites
     - A java library that exists in maven central repository.
     - A valid OpenAI API Key.
@@ -26,6 +31,3 @@ This link contains the information of the evaluation in our experiments.
       **api_name**'s format: `class_name.method_name(param_type_names)`
 
       _EX._ `bin/jqf-llm -i -o "org.apache.commons:commons-lang3:3.14.0" "org.apache.commons.lang3.StringUtils.indexOfDifference(CharSequence,CharSequence)"`
-
-
-
