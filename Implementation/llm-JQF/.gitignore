@@ -1,0 +1,27 @@
+.DS_Store
+build/
+target/
+*.iml
+*.pyc
+.cache/
+.idea/
+.janala/
+*.log
+results-*/
+*_crashes/
+*.swp
+apidocs/
+experiments/*-results-*
+*-results/
+.java-version
+typeinfo.db
+
+# for jqf-llm
+.decompiled_sources/
+.object_storage*/
+.output/
+.unzip/
+coverage_hash
+LLMMain.java
+LLMMain.class
+graph.json

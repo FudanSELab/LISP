@@ -1,0 +1,17 @@
+{package}
+
+{imports}
+
+@RunWith(JQF.class)
+public class {testingClassName} {
+
+    @LLMFuzz
+    public void runLLMFuzz(int mock) throws Exception {
+        switch (mock) {
+            {call}
+        }
+    }
+
+    {testcases}
+
+}

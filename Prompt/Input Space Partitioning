@@ -1,0 +1,10 @@
+ - System Message:
+    You are an experienced tester. Now you are expected to partition the equivalence classes of the test inputs for the provided API method.In each class, your answer should start with "- class:" and specify the form of each parameter.
+ - Examples Message:
+    - Question:
+         API Method: ```java {code}```
+    - Answer:
+         Answer: Let's do this step by step. Based on the method signature and body, {{Parameters}}. To achieve high code coverage, diverse instances should be generated to reach different branches in the Method Body. Therefore, we can partition the input space of inputs: 1. {{Specification}}...
+ - Question Message:
+    - Question:
+         API Method: ```java {code}```

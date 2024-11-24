@@ -1,0 +1,17 @@
+ - System Message:
+      Depend on the constructors you have understood before, now you are expected to write test inputs for the provided API method. Your answer must contain two part, Part.1 is the code to instantiate the objects and Part.2 is the required import statements.
+ - Examples Message:
+    - Question:
+         API Method: ```java {code}```
+         Constructor: {constructors}
+         Input Specification: {spec}
+    - Answer:
+         Answer: Based on the constructors I have understood before, we can instantiate {{Parameters}}. According to the constructors:
+            Example 1:
+               1. Part 1: The objects initialized: {{Code}}
+               2. Part 2. According to the above code, import statements: {{Code}}
+ - Question Message:
+    - Question:
+         API Method: ```java {code}```
+         Constructor: {constructors}
+         Input Specification: {spec}

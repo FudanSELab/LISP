@@ -1,0 +1,15 @@
+
+{imports}
+
+import edu.berkeley.cs.jqf.fuzz.Fuzz;
+import edu.berkeley.cs.jqf.fuzz.JQF;
+import edu.berkeley.cs.jqf.fuzz.llmfuzz.LLMFuzz;
+import org.junit.runner.RunWith;
+
+@RunWith(JQF.class)
+public class LLMFuzzDriver {{
+    @LLMFuzz
+    public void runLLMFuzz({params}) throws Exception {{
+        {call_stmt}
+    }}
+}}
