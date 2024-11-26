@@ -6,7 +6,7 @@ ICSE '25: LLM Based Input Space Partitioning Testing for Library APIs
 
 Jiageng Li, Zhen Dong*, Chong Wang, Haozhen You, Cen Zhang, Yang Liu, Xin Peng
 
-## Link for Experiments Results: [<u>https://fudanselab.github.io/lisp</u>](https://fudanselab.github.io/lisp)
+## Link for Experiments Results: [<u>https://FudanSELab.github.io/LISP</u>](https://FudanSELab.github.io/LISP)
 
 This link contains the information of the evaluation in our experiments.
 
